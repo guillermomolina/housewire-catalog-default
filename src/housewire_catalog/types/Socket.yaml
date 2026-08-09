@@ -35,6 +35,15 @@ representations:
     svg: symbols/socket-schuko.svg
     size: [64, 52]
     show_label: false
+    main_color:
+      default: white
+      options:
+        white: "#f8fafc"
+        ivory: "#eee8d5"
+        aluminum: "#a8adb4"
+        light_gray: "#d1d5db"
+        anthracite: "#45484d"
+        black: "#27272a"
     terminals:
       N1: {position: [0.25, 0.0]}
       N2: {position: [0.5, 0.0]}

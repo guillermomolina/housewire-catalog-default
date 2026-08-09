@@ -20,6 +20,15 @@ defaults:
     NS: 2
     WE: 2
     B: 2x2
+representations:
+  physical:
+    kind: dynamic
+    main_color:
+      default: black
+      options:
+        white: "#f8fafc"
+        gray: "#6b7280"
+        black: "#27272a"
 subtypes:
   IP40:
     label: IP40 (indoor)

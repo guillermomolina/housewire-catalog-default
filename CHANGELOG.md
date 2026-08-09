@@ -10,6 +10,24 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.20.0] — 2026-08-09
+
+### Changed
+
+- All switch variants now use realistic wall-mechanism SVGs with a framed
+  rocker, topology-specific details, correctly aligned terminals, and a
+  configurable finish palette.
+- Terminal strips and socket outlets are white by default and offer small
+  configurable body-color palettes in the physical canvas.
+- Junction boxes expose a white, gray, and black palette for their dynamically
+  rendered canvas body.
+- Electrical panels expose a white, light-gray, gray, and black palette for
+  their dynamically rendered canvas body.
+- Device boxes expose a white, gray, black, blue, and orange palette for their
+  dynamically rendered canvas body.
+- Light points expose a white, light-gray, gray, and black palette for their
+  dynamically rendered canvas body.
+
 ## [0.19.0] — 2026-08-09
 
 ### Changed
