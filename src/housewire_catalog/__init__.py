@@ -7,7 +7,7 @@ import tempfile
 from importlib import resources
 from pathlib import Path
 
-__version__ = "0.18.0"
+__version__ = "0.19.0"
 
 _PKG = resources.files("housewire_catalog")
 
@@ -32,7 +32,7 @@ def catalog_root() -> Path:
         return direct.resolve()
 
     # Zip / missing real path: materialize catalog.yaml + types/.
-    cache = Path(tempfile.gettempdir()) / "housewire-catalog" / __version__
+    cache = Path(tempfile.gettempdir()) / "housewire-catalog-default" / __version__
     types_cache = cache / "types"
     if not (cache / "catalog.yaml").is_file():
         cache.mkdir(parents=True, exist_ok=True)
@@ -46,6 +46,13 @@ def catalog_root() -> Path:
         for entry in _PKG.joinpath("types").iterdir():
             if entry.name.endswith((".yaml", ".yml")):
                 (types_cache / entry.name).write_bytes(entry.read_bytes())
+        symbols = _PKG.joinpath("types", "symbols")
+        if symbols.is_dir():
+            symbols_cache = types_cache / "symbols"
+            symbols_cache.mkdir(parents=True, exist_ok=True)
+            for entry in symbols.iterdir():
+                if entry.name.endswith(".svg"):
+                    (symbols_cache / entry.name).write_bytes(entry.read_bytes())
     return cache.resolve()
 
 

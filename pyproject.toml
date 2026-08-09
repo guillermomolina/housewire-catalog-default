@@ -3,8 +3,8 @@ requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "housewire-catalog"
-version = "0.18.0"
+name = "housewire-catalog-default"
+version = "0.19.0"
 description = "Default type catalog for HouseWire (house/v2)"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -16,10 +16,10 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/guillermomolina/housewire-catalog"
-Repository = "https://github.com/guillermomolina/housewire-catalog"
+Homepage = "https://github.com/guillermomolina/housewire-catalog-default"
+Repository = "https://github.com/guillermomolina/housewire-catalog-default"
 Issues = "https://github.com/guillermomolina/housewire/issues"
-Changelog = "https://github.com/guillermomolina/housewire-catalog/blob/main/CHANGELOG.md"
+Changelog = "https://github.com/guillermomolina/housewire-catalog-default/blob/main/CHANGELOG.md"
 
 [project.entry-points."housewire.catalog"]
 default = "housewire_catalog:catalog_root"

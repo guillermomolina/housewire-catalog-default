@@ -10,6 +10,17 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.19.0] — 2026-08-09
+
+### Changed
+
+- The distribution and repository are named ``housewire-catalog-default``;
+  the Python import module remains ``housewire_catalog``.
+- The manifest now publishes the FQCN library id ``housewire.default`` using
+  ``catalog/v2``.
+- ``Relay`` is a manufacturer-neutral base type. Smart-relay concepts and
+  Sonoff products now live in their own dependent catalog libraries.
+
 ## [0.18.0] — 2026-08-09
 
 ### Added

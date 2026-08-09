@@ -1,101 +1,16 @@
 kind: ElementType
 type: Relay
 icon: workflow
-label: Relay / smart switch
-label_es: Relé / interruptor inteligente
-description: 'Relay or smart switch (e.g. Sonoff ZBMini). Supply LIn+N, switched LOut, external
-  switch inputs.
-
-  '
-description_es: 'Relé o interruptor inteligente (p. ej. Sonoff ZBMini). Alimentación LIn+N,
-  LOut conmutada, entradas de interruptor externo.
-
-  '
+label: Relay
+label_es: Relé
+description: Generic electrically operated switching device.
+description_es: Dispositivo genérico de conmutación accionado eléctricamente.
 qet_hint: relay
 terminal_grid:
-  N: 4
-  S: 1
+  N: 2
+  S: 2
 terminals:
-  N1:
-    label: N
-    direction: In
-    role: Neutral
-  N2:
-    label: L in
-    direction: In
-    role: Phase
-  N3:
-    label: L out
-    direction: Out
-    role: Phase
-  N4:
-    label: S1
-    direction: In
-    role: Signal
-  S1:
-    label: S2
-    direction: In
-    role: Signal
-defaults:
-  subtype: Smart
-subtypes:
-  Smart:
-    label: Smart relay (Zigbee / Wi-Fi)
-    label_es: Relé inteligente (Zigbee / Wi-Fi)
-  ZbminiR2:
-    label: Sonoff ZBMiniR2
-    label_es: Sonoff ZBMiniR2
-    representations:
-      physical:
-        kind: fixed
-        svg: symbols/relay-zbmini-r2.svg
-        size: [84, 48]
-        show_label: false
-        terminals:
-          N1: {position: [0.2, 0.0]}
-          N2: {position: [0.4, 0.0]}
-          N3: {position: [0.6, 0.0]}
-          N4: {position: [0.8, 0.0]}
-          S1: {position: [0.5, 1.0]}
-  ZbminiExtreme:
-    label: Sonoff ZBMini Extreme (legacy alias)
-    label_es: Sonoff ZBMini Extreme (alias legado)
-  MiniZbd:
-    label: Sonoff MINI Zigbee Dry (MINI-ZBD)
-    label_es: Sonoff MINI Zigbee Dry (MINI-ZBD)
-    terminal_grid:
-      N: 2
-      S: 3
-    terminals:
-      N1:
-        label: L
-        direction: In
-        role: Phase
-      N2:
-        label: N
-        direction: In
-        role: Neutral
-      S1:
-        label: "NO"
-        direction: Out
-        role: Signal
-      S2:
-        label: COM
-        direction: InOut
-        role: Signal
-      S3:
-        label: NC
-        direction: Out
-        role: Signal
-    representations:
-      physical:
-        kind: fixed
-        svg: symbols/relay-mini-zbd.svg
-        size: [84, 48]
-        show_label: false
-        terminals:
-          N1: {position: [0.333333, 0.0]}
-          N2: {position: [0.666667, 0.0]}
-          S1: {position: [0.166667, 1.0]}
-          S2: {position: [0.5, 1.0]}
-          S3: {position: [0.833333, 1.0]}
+  N1: {label: A1, direction: In, role: Signal}
+  N2: {label: A2, direction: In, role: Signal}
+  S1: {label: COM, direction: InOut, role: Signal}
+  S2: {label: NO, direction: Out, role: Signal}

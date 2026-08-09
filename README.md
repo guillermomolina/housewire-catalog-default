@@ -5,12 +5,12 @@
 # HouseWire catalog
 
 External type catalog for [HouseWire](https://github.com/guillermomolina/housewire)
-(`schema: catalog/v1`), installable as the Python package **`housewire-catalog`**.
+(`schema: catalog/v1`), installable as the Python package **`housewire-catalog-default`**.
 
 ## Install
 
 ```bash
-pip install housewire-catalog
+pip install housewire-catalog-default
 # from a checkout:
 pip install -e .
 ```
@@ -55,9 +55,9 @@ triggers the SSPL Service Source Code obligations.
 
 ```bash
 mkdir -p catalogs
-git clone https://github.com/guillermomolina/housewire-catalog.git catalogs/default
+git clone https://github.com/guillermomolina/housewire-catalog-default.git catalogs/default
 # catalogs/default (via symlinks) is a valid catalog root
-export HOUSEWIRE_CATALOG=/path/to/housewire-catalog   # or catalogs/default
+export HOUSEWIRE_CATALOG=/path/to/housewire-catalog-default   # or catalogs/default
 ```
 
 Site overlay: `$SITE/catalog/*.yaml` (shallow merge by `id`).
