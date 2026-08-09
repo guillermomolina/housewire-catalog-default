@@ -10,6 +10,19 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.18.0] — 2026-08-09
+
+### Added
+
+- Physical SVG representations with routing-aligned terminal anchors for
+  terminal strips, switches, sockets, relays, luminaires, protection devices,
+  power supplies, intercoms, supplies, and earth electrodes.
+
+### Removed
+
+- The redundant ``PETerminal`` type; use a single-pole ``TerminalStrip`` with
+  a PE-labelled terminal instead.
+
 ## [0.17.0] — 2026-08-05
 
 ### Added

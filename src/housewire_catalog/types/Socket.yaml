@@ -29,3 +29,13 @@ subtypes:
   Schuko:
     label: Schuko (2P+E)
     label_es: Schuko (2P+T)
+representations:
+  physical:
+    kind: fixed
+    svg: symbols/socket-schuko.svg
+    size: [64, 52]
+    show_label: false
+    terminals:
+      N1: {position: [0.25, 0.0]}
+      N2: {position: [0.5, 0.0]}
+      N3: {position: [0.75, 0.0]}

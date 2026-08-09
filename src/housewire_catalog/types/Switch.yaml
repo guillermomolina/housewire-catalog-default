@@ -47,6 +47,19 @@ subtypes:
         label: '2'
         direction: InOut
         role: Phase
+    representations:
+      physical:
+        kind: fixed
+        svg: symbols/switch-crossover.svg
+        size: [78, 42]
+        show_label: false
+        terminals:
+          N1: {position: [0.25, 0.0]}
+          N2: {position: [0.5, 0.0]}
+          N3: {position: [0.75, 0.0]}
+          S1: {position: [0.25, 1.0]}
+          S2: {position: [0.5, 1.0]}
+          S3: {position: [0.75, 1.0]}
   Intermediate:
     label: Intermediate / 4-way
     label_es: Cruzamiento (4 vías)

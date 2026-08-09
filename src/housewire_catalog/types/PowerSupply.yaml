@@ -27,3 +27,14 @@ terminals:
     label: "12V DC -"
     direction: Out
     role: DCNegative
+representations:
+  physical:
+    kind: fixed
+    svg: symbols/power-supply.svg
+    size: [70, 54]
+    show_label: false
+    terminals:
+      N1: {position: [0.185714, 0.0]}
+      N2: {position: [0.814286, 0.0]}
+      S1: {position: [0.185714, 1.0]}
+      S2: {position: [0.814286, 1.0]}

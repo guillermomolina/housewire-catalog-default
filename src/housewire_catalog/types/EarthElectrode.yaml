@@ -14,3 +14,11 @@ terminals:
     label: PE
     direction: Out
     role: PE
+representations:
+  physical:
+    kind: fixed
+    svg: symbols/earth-electrode.svg
+    size: [48, 60]
+    show_label: false
+    terminals:
+      S1: {position: [0.5, 1.0]}

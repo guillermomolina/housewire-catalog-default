@@ -18,3 +18,12 @@ terminals:
     label: N
     direction: Out
     role: Neutral
+representations:
+  physical:
+    kind: fixed
+    svg: symbols/supply.svg
+    size: [64, 46]
+    show_label: false
+    terminals:
+      S1: {position: [0.328125, 1.0]}
+      S2: {position: [0.671875, 1.0]}
