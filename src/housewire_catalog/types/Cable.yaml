@@ -13,13 +13,13 @@ description_es: 'Cubierta o mazo que agrupa conductores (contains). No conecta t
   '
 defaults:
   subtype: Power
-  color: BK
+  color: WH
 subtypes:
   Power:
     label: Power (AC)
     label_es: Potencia (CA)
     defaults:
-      color: BK
+      color: WH
   Earth:
     label: Protective earth bundle
     label_es: Haz de tierra de protección

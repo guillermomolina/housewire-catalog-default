@@ -14,13 +14,13 @@ description_es: 'Hilo único entre dos terminales (from/to). Vive bajo cables: c
 defaults:
   subtype: Power
   section: 1.5 mm2
-  color: BN
+  color: BU
 subtypes:
   Power:
     label: Power (AC)
     label_es: Potencia (CA)
     defaults:
-      color: BN
+      color: BU
   Earth:
     label: Protective earth
     label_es: Tierra de protección

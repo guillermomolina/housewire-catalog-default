@@ -15,6 +15,7 @@ description_es: 'Tubo o conducto entre lugares (capa física). Une openings con 
   '
 defaults:
   subtype: Tube
+  color: BK
 subtypes:
   Tube:
     label: Tube (generic)
