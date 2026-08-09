@@ -1,5 +1,7 @@
 kind: PlaceType
 type: LightPoint
+extends: housewire.default.ConnectablePlace
+abstract: false
 icon: lightbulb
 label: Light point / luminaire outlet
 label_es: Punto de luz

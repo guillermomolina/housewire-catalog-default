@@ -1,5 +1,7 @@
 kind: PlaceType
 type: House
+extends: housewire.default.Container
+abstract: false
 icon: house
 label: House / dwelling
 label_es: Vivienda / casa

@@ -1,5 +1,7 @@
 kind: PlaceType
 type: JunctionBox
+extends: housewire.default.ConnectablePlace
+abstract: false
 icon: box
 label: Junction box
 label_es: Caja de derivación

@@ -1,5 +1,7 @@
 kind: PlaceType
 type: DeviceBox
+extends: housewire.default.ConnectablePlace
+abstract: false
 icon: box
 label: Device / mechanism box
 label_es: Caja de mecanismo

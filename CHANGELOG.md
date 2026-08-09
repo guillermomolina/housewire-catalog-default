@@ -10,6 +10,15 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.21.0] — 2026-08-09
+
+### Added
+
+- Abstract ``Container`` and ``ConnectablePlace`` place types. ``House``,
+  ``Floor``, ``Room``, ``Stair``, and ``Location`` inherit spatial-container
+  capabilities; boxes, panels, and light points inherit optional opening
+  support.
+
 ## [0.20.0] — 2026-08-09
 
 ### Changed

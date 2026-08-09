@@ -1,5 +1,7 @@
 kind: PlaceType
 type: Panel
+extends: housewire.default.ConnectablePlace
+abstract: false
 icon: server
 label: Electrical panel
 label_es: Cuadro eléctrico

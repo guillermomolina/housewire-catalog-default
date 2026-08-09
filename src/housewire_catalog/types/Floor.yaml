@@ -1,5 +1,7 @@
 kind: PlaceType
 type: Floor
+extends: housewire.default.Container
+abstract: false
 icon: layers
 label: Floor / level
 label_es: Planta / nivel

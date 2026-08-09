@@ -1,5 +1,7 @@
 kind: PlaceType
 type: Location
+extends: housewire.default.Container
+abstract: false
 icon: map-pin
 label: Generic place (inline / catch-all)
 label_es: Lugar genérico

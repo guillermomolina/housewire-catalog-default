@@ -1,5 +1,7 @@
 kind: PlaceType
 type: Room
+extends: housewire.default.Container
+abstract: false
 icon: door-open
 label: Room
 label_es: Habitación

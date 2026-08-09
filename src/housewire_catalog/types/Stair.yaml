@@ -1,5 +1,7 @@
 kind: PlaceType
 type: Stair
+extends: housewire.default.Container
+abstract: false
 icon: waves-ladder
 label: Stair / vertical circulation
 label_es: Escalera
