@@ -10,6 +10,13 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.22.0] — 2026-08-10
+
+### Changed
+
+- The luminaire physical symbol now frames its north terminals and shows the
+  original bulb suspended downward inside the enclosure.
+
 ## [0.21.0] — 2026-08-09
 
 ### Added
