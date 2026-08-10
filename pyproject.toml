@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "housewire-catalog-default"
-version = "0.22.0"
+version = "0.23.0"
 description = "Default type catalog for HouseWire (house/v2)"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -22,7 +22,7 @@ Issues = "https://github.com/guillermomolina/housewire/issues"
 Changelog = "https://github.com/guillermomolina/housewire-catalog-default/blob/main/CHANGELOG.md"
 
 [project.entry-points."housewire.catalog"]
-default = "housewire_catalog:catalog_root"
+"housewire.default" = "housewire_catalog:catalog_root"
 
 [tool.setuptools.packages.find]
 where = ["src"]

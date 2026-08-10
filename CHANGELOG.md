@@ -10,6 +10,12 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.23.0] — 2026-08-10
+
+### Changed
+
+- The package entry point now uses the stable `housewire.default` catalog id.
+
 ## [0.22.0] — 2026-08-10
 
 ### Changed
