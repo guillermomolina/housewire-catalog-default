@@ -10,6 +10,13 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.24.0] — 2026-08-10
+
+### Added
+
+- The ``OpenTerminal`` element type for explicit unfinished conductor
+  endpoints.
+
 ## [0.23.0] — 2026-08-10
 
 ### Changed

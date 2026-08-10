@@ -1,0 +1,32 @@
+kind: ElementType
+type: OpenTerminal
+icon: circle-dot
+label: Open terminal
+label_es: Extremo libre
+description: >
+  Explicit placeholder for the known end of an otherwise unidentified or
+  pending conductor. Conductors always connect to a real terminal, including
+  while installation details are incomplete.
+description_es: >
+  Marcador explícito para el extremo conocido de un conductor pendiente o
+  todavía sin identificar. Los conductores siempre se conectan a un terminal
+  real, incluso cuando faltan detalles de la instalación.
+qet_hint: terminal
+terminal_grid:
+  N: 1
+terminals:
+  N1:
+    label: "1"
+    direction: InOut
+representations:
+  physical:
+    kind: fixed
+    size: [28, 28]
+    show_label: true
+    main_color:
+      default: orange
+      options:
+        orange: "#f59e0b"
+        yellow: "#eab308"
+        red: "#ef4444"
+        gray: "#6b7280"
