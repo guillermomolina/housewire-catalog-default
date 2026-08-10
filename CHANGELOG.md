@@ -10,6 +10,13 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.25.0] — 2026-08-10
+
+### Changed
+
+- ``OpenTerminal`` uses a dedicated double-circle symbol with its sole ``F1``
+  terminal centered on the front face.
+
 ## [0.24.0] — 2026-08-10
 
 ### Added
