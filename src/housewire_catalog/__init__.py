@@ -7,7 +7,7 @@ import tempfile
 from importlib import resources
 from pathlib import Path
 
-__version__ = "0.25.0"
+__version__ = "0.26.0"
 
 _PKG = resources.files("housewire_catalog")
 

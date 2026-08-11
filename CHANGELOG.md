@@ -10,6 +10,13 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.26.0] — 2026-08-11
+
+### Added
+
+- ``Relay`` uses a dedicated coil/contact physical symbol with ``A1``/``A2`` on
+  the north face and ``COM``/``NO`` on the south face.
+
 ## [0.25.0] — 2026-08-10
 
 ### Changed

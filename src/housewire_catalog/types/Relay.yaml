@@ -14,3 +14,14 @@ terminals:
   N2: {label: A2, direction: In, role: Signal}
   S1: {label: COM, direction: InOut, role: Signal}
   S2: {label: NO, direction: Out, role: Signal}
+representations:
+  physical:
+    kind: fixed
+    svg: symbols/relay.svg
+    size: [72, 60]
+    show_label: false
+    terminals:
+      N1: {position: [0.305556, 0.0]}
+      N2: {position: [0.694444, 0.0]}
+      S1: {position: [0.305556, 1.0]}
+      S2: {position: [0.694444, 1.0]}
