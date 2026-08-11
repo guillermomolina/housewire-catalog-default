@@ -1,8 +1,8 @@
 kind: ElementType
 type: Intercom
 icon: phone
-label: Door entry / intercom
-label_es: Portero / videoportero
+label: Intercom
+label_es: Portero
 description: Door entry / video intercom (DC supply).
 description_es: >
   Portero / videoportero (alimentación DC).

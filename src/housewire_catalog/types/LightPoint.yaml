@@ -3,7 +3,7 @@ type: LightPoint
 extends: housewire.default.ConnectablePlace
 abstract: false
 icon: lightbulb
-label: Light point / luminaire outlet
+label: Light point
 label_es: Punto de luz
 description: 'Light point (ceiling/wall hole, lampholder, luminaire outlet). Not a DeviceBox:
   no socket/switch mechanism. Physical end of conduits (typical mouth B1-1 or N1). A Luminaire

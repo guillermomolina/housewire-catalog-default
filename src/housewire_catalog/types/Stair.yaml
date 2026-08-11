@@ -3,7 +3,7 @@ type: Stair
 extends: housewire.default.Container
 abstract: false
 icon: waves-ladder
-label: Stair / vertical circulation
+label: Stair
 label_es: Escalera
 description: >
   Stair or other vertical circulation void. Usually sits beside the floors it

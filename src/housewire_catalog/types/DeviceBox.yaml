@@ -3,7 +3,7 @@ type: DeviceBox
 extends: housewire.default.ConnectablePlace
 abstract: false
 icon: box
-label: Device / mechanism box
+label: Mechanism box
 label_es: Caja de mecanismo
 description: 'Mechanism box (socket, switch, …). Usually 1-gang; 2-gang / 3-gang group several
   devices in the same box. Declare mouths in openings (local ids N1, B1-1, …). Socket/Switch

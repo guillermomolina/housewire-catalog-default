@@ -3,14 +3,12 @@ type: Floor
 extends: housewire.default.Container
 abstract: false
 icon: layers
-label: Floor / level
-label_es: Planta / nivel
+label: Floor
+label_es: Suelo
 description: >
-  Building floor or level (ground floor, -1/parking, floor 1, …).
-  Use label for the human name (Ground floor, Parking).
-  Place type: no electrical terminals.
+  Physical floor surface or flooring area (as opposed to ceiling or walls).
+  Place type: surface area without direct electrical terminals.
 description_es: >
-  Planta o nivel del edificio (planta baja, -1/parking, planta 1, …). Usa
-  label para el nombre humano (Planta baja, Parking). Tipo place: sin
-  terminales eléctricos.
+  Superficie física del suelo o pavimento (a diferencia del techo o paredes).
+  Tipo place: zona o superficie sin terminales eléctricos directos.
 terminals: {}

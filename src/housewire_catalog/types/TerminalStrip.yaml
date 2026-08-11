@@ -1,8 +1,8 @@
 kind: ElementType
 type: TerminalStrip
 icon: grip-horizontal
-label: Terminal strip / connector block
-label_es: Regleta / bornes
+label: Terminal strip
+label_es: Regleta
 description: >
   Terminal strip / splice block in a junction box.
   Face-cell ids only on N (N1..Nn); terminal_grid NS draws both sides of the

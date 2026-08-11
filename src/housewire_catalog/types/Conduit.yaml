@@ -1,8 +1,8 @@
 kind: ConduitType
 type: Conduit
 icon: grip-vertical
-label: Conduit / hose
-label_es: Tubo / conducto
+label: Conduit
+label_es: Conducto
 description: 'Tube or hose between locations (physical layer). Joins openings with from/to
   (LocationRef.OpeningId); contains lists cables/conductors that travel inside. Lives under
   cables: with type Conduit, not in elements.

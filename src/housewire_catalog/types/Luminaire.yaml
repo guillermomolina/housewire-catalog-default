@@ -1,8 +1,8 @@
 kind: ElementType
 type: Luminaire
 icon: lightbulb
-label: Luminaire / lamp
-label_es: Luminaria / lámpara
+label: Luminaire
+label_es: Luminaria
 description: >
   Luminaire or lampholder. Typical terminals N1/N2/N3 when switched phase,
   permanent phase, and neutral arrive (or only L+N if the instance shrinks

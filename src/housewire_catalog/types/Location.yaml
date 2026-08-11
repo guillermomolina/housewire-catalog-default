@@ -3,7 +3,7 @@ type: Location
 extends: housewire.default.Container
 abstract: false
 icon: map-pin
-label: Generic place (inline / catch-all)
+label: Generic place
 label_es: Lugar genérico
 description: >
   Generic location container. Prefer Room, Stair, JunctionBox, DeviceBox,

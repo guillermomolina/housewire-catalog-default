@@ -10,6 +10,15 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.28.0] — 2026-08-11
+
+### Changed
+
+- Shorter catalog display labels (drop slash alternatives): e.g. Cable sheath,
+  Conductor, Conduit, Mechanism box, Floor, House, Intercom.
+- ``Floor`` semantics clarified as physical floor surface (``Suelo``), not
+  building level.
+
 ## [0.27.0] — 2026-08-11
 
 ### Changed

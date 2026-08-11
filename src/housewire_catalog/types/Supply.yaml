@@ -1,8 +1,8 @@
 kind: ElementType
 type: Supply
 icon: plug-zap
-label: Supply / grid feed
-label_es: Acometida / suministro
+label: Supply
+label_es: Acometida
 description: Supply / grid feed (phase + neutral from the meter).
 description_es: >
   Alimentación / acometida (fase + neutro desde el contador).
