@@ -10,6 +10,13 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.27.0] — 2026-08-11
+
+### Changed
+
+- ``Relay`` now uses a polished enclosure symbol with a front window, coil,
+  normally-open contact, status indicator, and clearly labelled terminals.
+
 ## [0.26.0] — 2026-08-11
 
 ### Added
