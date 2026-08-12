@@ -10,6 +10,13 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.31.0] — 2026-08-12
+
+### Changed
+
+- Breaking: manifest declares ``schema: catalog`` (replaces ``catalog/v2``).
+  No alias.
+
 ## [0.30.0] — 2026-08-12
 
 ### Changed
