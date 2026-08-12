@@ -6,11 +6,13 @@ label_es: Extremo libre
 description: >
   Explicit placeholder for the known end of an otherwise unidentified or
   pending conductor. Conductors always connect to a real terminal, including
-  while installation details are incomplete.
+  while installation details are incomplete. Sole front pin is F1 (alias of
+  the face-cell id F1-1 from terminal_grid F: 1).
 description_es: >
   Marcador explícito para el extremo conocido de un conductor pendiente o
   todavía sin identificar. Los conductores siempre se conectan a un terminal
-  real, incluso cuando faltan detalles de la instalación.
+  real, incluso cuando faltan detalles de la instalación. El único pin frontal
+  es F1 (alias del id de celda F1-1 del terminal_grid F: 1).
 qet_hint: terminal
 terminal_grid:
   F: 1

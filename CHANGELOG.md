@@ -10,6 +10,19 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.29.0] — 2026-08-12
+
+### Changed
+
+- ``OpenTerminal`` physical block uses ``representations`` (not ``repr``). Sole pin
+  remains ``F1``, accepted as shorthand for face-cell ``F1-1``.
+
+### Added
+
+- ``OpenOrigin`` leaf place type: single front opening ``F1`` (alias of
+  ``F1-1``) for unfinished conduit endpoints (analogous to ``OpenTerminal``),
+  with fixed physical SVG and UI icon ``open-origin``.
+
 ## [0.28.0] — 2026-08-11
 
 ### Changed

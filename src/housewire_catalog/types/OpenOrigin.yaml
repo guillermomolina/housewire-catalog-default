@@ -1,0 +1,41 @@
+kind: PlaceType
+type: OpenOrigin
+extends: housewire.default.ConnectablePlace
+abstract: false
+icon: open-origin
+label: Open origin
+label_es: Origen libre
+description: >
+  Explicit placeholder place for the known end of an otherwise unidentified or
+  pending conduit. Conduits always connect to a real opening, including while
+  installation details are incomplete. Leaf place: no nested children or
+  electrical elements. Exactly one opening F1 (alias of face-cell F1-1) and
+  exactly one conduit.
+description_es: >
+  Contenedor marcador para el extremo conocido de un tubo (conduit) pendiente o
+  todavía sin identificar. Los tubos siempre se conectan a una boca real,
+  incluso cuando faltan detalles de la instalación. Place hoja: sin hijos ni
+  elementos eléctricos. Exactamente una boca F1 (alias de la celda F1-1) y
+  exactamente un conduit.
+capabilities:
+  children: false
+  openings: true
+  origin: false
+terminals: {}
+defaults:
+  openings: [F1]
+  opening_grid:
+    F: 1
+representations:
+  physical:
+    kind: fixed
+    svg: symbols/open-origin.svg
+    size: [36, 36]
+    show_label: false
+    main_color:
+      default: orange
+      options:
+        orange: "#f59e0b"
+        yellow: "#eab308"
+        red: "#ef4444"
+        gray: "#6b7280"
