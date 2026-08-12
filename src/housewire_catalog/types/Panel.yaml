@@ -7,11 +7,11 @@ label: Electrical panel
 label_es: Cuadro eléctrico
 description: >
   Electrical panel / consumer unit. Place metadata (type/label/… on the YAML
-  node). Declare mouths in location.openings as local ids (N1, B1-1, …), same
+  node). Declare mouths in location.ports as local ids (N1, B1-1, …), same
   as JunctionBox. Place type: no electrical terminals.
 description_es: >
   Cuadro eléctrico / caja de protección. Metadatos del place (type/label/…
-  en el nodo YAML). Declara bocas en location.openings como ids locales
+  en el nodo YAML). Declara bocas en location.ports como ids locales
   (N1, B1-1, …), igual que JunctionBox. Tipo place: sin terminales
   eléctricos.
 terminals: {}

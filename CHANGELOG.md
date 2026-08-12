@@ -10,6 +10,15 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.30.0] — 2026-08-12
+
+### Changed
+
+- Breaking rename: capability and fields ``ports`` / ``port_grid`` (was
+  ``openings`` / ``opening_grid``); type ``OpenPort`` (was ``OpenOrigin``),
+  icon ``open-port``, SVG ``symbols/open-port.svg``. Spanish label **Boca
+  libre**. No compatibility with the old names.
+
 ## [0.29.0] — 2026-08-12
 
 ### Changed
@@ -19,9 +28,9 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ### Added
 
-- ``OpenOrigin`` leaf place type: single front opening ``F1`` (alias of
+- ``OpenPort`` leaf place type: single front port ``F1`` (alias of
   ``F1-1``) for unfinished conduit endpoints (analogous to ``OpenTerminal``),
-  with fixed physical SVG and UI icon ``open-origin``.
+  with fixed physical SVG and UI icon ``open-port``.
 
 ## [0.28.0] — 2026-08-11
 
@@ -79,7 +88,7 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 - Abstract ``Container`` and ``ConnectablePlace`` place types. ``House``,
   ``Floor``, ``Room``, ``Stair``, and ``Location`` inherit spatial-container
-  capabilities; boxes, panels, and light points inherit optional opening
+  capabilities; boxes, panels, and light points inherit optional port
   support.
 
 ## [0.20.0] — 2026-08-09
@@ -128,13 +137,13 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ### Added
 
-- ``DeviceBox`` defaults: ``opening_grid`` ``NS: 1``, ``WE: 1``, ``B: 1``.
+- ``DeviceBox`` defaults: ``port_grid`` ``NS: 1``, ``WE: 1``, ``B: 1``.
 
 ## [0.16.0] — 2026-08-05
 
 ### Added
 
-- ``JunctionBox`` defaults: ``opening_grid`` ``NS: 2``, ``WE: 2``, ``B: 2x2``
+- ``JunctionBox`` defaults: ``port_grid`` ``NS: 2``, ``WE: 2``, ``B: 2x2``
   (applied when creating a new junction box).
 
 ## [0.15.0] — 2026-08-04
@@ -266,7 +275,7 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 ### Added
 
 - Element ``terminal_grid`` on MCB, MCB2P, RCD, TerminalStrip, Switch,
-  Supply, and PETerminal (same face grammar as location ``opening_grid``).
+  Supply, and PETerminal (same face grammar as location ``port_grid``).
 
 ## [0.1.0] — 2026-08-01
 

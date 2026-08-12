@@ -8,8 +8,8 @@ External type catalog for [HouseWire](https://github.com/guillermomolina/housewi
 (`schema: catalog/v1`), installable as the Python package **`housewire-catalog-default`**.
 
 Place types inherit behavior from abstract catalog bases. ``Container``
-provides child containment without physical openings; ``ConnectablePlace``
-adds optional ``opening_grid`` / ``openings`` support. Concrete semantic types
+provides child containment without physical ports; ``ConnectablePlace``
+adds optional ``port_grid`` / ``ports`` support. Concrete semantic types
 such as ``Room`` and ``JunctionBox`` extend one of these bases and remain the
 types used in site YAML.
 

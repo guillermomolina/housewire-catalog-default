@@ -1,15 +1,15 @@
 kind: PlaceType
-type: OpenOrigin
+type: OpenPort
 extends: housewire.default.ConnectablePlace
 abstract: false
-icon: open-origin
-label: Open origin
-label_es: Origen libre
+icon: open-port
+label: Open port
+label_es: Boca libre
 description: >
   Explicit placeholder place for the known end of an otherwise unidentified or
-  pending conduit. Conduits always connect to a real opening, including while
+  pending conduit. Conduits always connect to a real port, including while
   installation details are incomplete. Leaf place: no nested children or
-  electrical elements. Exactly one opening F1 (alias of face-cell F1-1) and
+  electrical elements. Exactly one port F1 (alias of face-cell F1-1) and
   exactly one conduit.
 description_es: >
   Contenedor marcador para el extremo conocido de un tubo (conduit) pendiente o
@@ -19,17 +19,17 @@ description_es: >
   exactamente un conduit.
 capabilities:
   children: false
-  openings: true
+  ports: true
   origin: false
 terminals: {}
 defaults:
-  openings: [F1]
-  opening_grid:
+  ports: [F1]
+  port_grid:
     F: 1
 representations:
   physical:
     kind: fixed
-    svg: symbols/open-origin.svg
+    svg: symbols/open-port.svg
     size: [36, 36]
     show_label: false
     main_color:

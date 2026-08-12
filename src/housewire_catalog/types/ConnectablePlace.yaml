@@ -6,12 +6,12 @@ icon: circle-dot
 label: Connectable place
 label_es: Lugar conectable
 description: >
-  Abstract base for physical places that may declare opening_grid and openings.
-  Openings are supported but are not required.
+  Abstract base for physical places that may declare port_grid and ports.
+  Ports are supported but are not required.
 description_es: >
-  Base abstracta para lugares físicos que pueden declarar opening_grid y
-  openings. Las bocas se admiten, pero no son obligatorias.
+  Base abstracta para lugares físicos que pueden declarar port_grid y
+  ports. Las bocas se admiten, pero no son obligatorias.
 capabilities:
   children: true
-  openings: true
+  ports: true
 terminals: {}

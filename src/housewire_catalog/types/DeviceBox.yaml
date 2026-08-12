@@ -6,19 +6,19 @@ icon: box
 label: Mechanism box
 label_es: Caja de mecanismo
 description: 'Mechanism box (socket, switch, …). Usually 1-gang; 2-gang / 3-gang group several
-  devices in the same box. Declare mouths in openings (local ids N1, B1-1, …). Socket/Switch
+  devices in the same box. Declare mouths in ports (local ids N1, B1-1, …). Socket/Switch
   instances go under elements. Place type: no electrical terminals.
 
   '
 description_es: 'Caja de mecanismo (enchufe, interruptor, …). Suele ser 1 módulo; 2/3 módulos
-  agrupan varios dispositivos en la misma caja. Declara bocas en openings (ids locales N1,
+  agrupan varios dispositivos en la misma caja. Declara bocas en ports (ids locales N1,
   B1-1, …). Las instancias Socket/Switch van bajo elements. Tipo place: sin terminales eléctricos.
 
   '
 terminals: {}
 defaults:
   subtype: OneGang
-  opening_grid:
+  port_grid:
     NS: 1
     WE: 1
     B: 1
