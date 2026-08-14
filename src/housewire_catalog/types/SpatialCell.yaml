@@ -1,0 +1,16 @@
+kind: PlaceType
+type: SpatialCell
+extends: housewire.default.Container
+abstract: false
+icon: box
+label: Room cell
+label_es: Celda espacial
+description: >
+  Unit 1×1 module of a room occupancy lattice. The YAML key is a normal
+  technical id (recipes suggest C1_1). Lattice position comes from
+  cell-face joins. Contains Floor, Ceiling, and active walls.
+description_es: >
+  Módulo unitario 1×1 de la retícula de una habitación. La clave YAML es
+  un id técnico normal (las recetas sugieren C1_1). La posición la dan
+  las uniones de cara. Contiene Floor, Ceiling y las paredes activas.
+terminals: {}

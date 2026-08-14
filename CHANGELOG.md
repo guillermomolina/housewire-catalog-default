@@ -10,6 +10,14 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.32.0] — 2026-08-14
+
+### Added
+
+- ``SpatialCell`` place type: unit 1×1 room module. YAML key is a normal
+  technical id (recipes suggest ``C1_1``). Children are ``Floor``,
+  ``Ceiling``, and active walls.
+
 ## [0.31.0] — 2026-08-12
 
 ### Changed
