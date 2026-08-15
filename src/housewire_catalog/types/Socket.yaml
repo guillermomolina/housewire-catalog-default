@@ -1,5 +1,6 @@
 kind: ElementType
 type: Socket
+extends: housewire.default.Element
 icon: plug
 label: Socket outlet
 label_es: Enchufe
@@ -7,7 +8,6 @@ description: Socket outlet (Schuko / 2P+E).
 description_es: 'Enchufe (Schuko / 2P+T).
 
   '
-qet_hint: socket_schuko
 terminal_grid:
   N: 3
 terminals:

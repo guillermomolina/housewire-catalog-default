@@ -1,6 +1,6 @@
 kind: PlaceType
 type: LightPoint
-extends: housewire.default.ConnectablePlace
+extends: housewire.default.Box
 abstract: false
 icon: lightbulb
 label: Light point
@@ -15,7 +15,6 @@ description_es: 'Punto de luz (hueco techo/pared, portalámparas, salida de lumi
   B1-1 o N1). Más adelante puede añadirse un elemento Luminaire (capa eléctrica) bajo elements.
 
   '
-terminals: {}
 defaults:
   subtype: CeilingHole
 representations:

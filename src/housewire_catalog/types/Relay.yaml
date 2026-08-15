@@ -1,11 +1,11 @@
 kind: ElementType
 type: Relay
+extends: housewire.default.Element
 icon: workflow
 label: Relay
 label_es: Relé
 description: Generic electrically operated switching device.
 description_es: Dispositivo genérico de conmutación accionado eléctricamente.
-qet_hint: relay
 terminal_grid:
   N: 2
   S: 2

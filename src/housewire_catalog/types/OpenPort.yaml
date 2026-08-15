@@ -1,6 +1,6 @@
 kind: PlaceType
 type: OpenPort
-extends: housewire.default.ConnectablePlace
+extends: housewire.default.Box
 abstract: false
 icon: open-port
 label: Open port
@@ -17,11 +17,7 @@ description_es: >
   incluso cuando faltan detalles de la instalación. Place hoja: sin hijos ni
   elementos eléctricos. Exactamente una boca F1 (alias de la celda F1-1) y
   exactamente un conduit.
-capabilities:
-  children: false
-  ports: true
-  origin: false
-terminals: {}
+contains: []
 defaults:
   ports: [F1]
   port_grid:

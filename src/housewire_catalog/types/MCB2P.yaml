@@ -1,5 +1,6 @@
 kind: ElementType
 type: MCB2P
+extends: housewire.default.Element
 icon: zap
 label: Double-pole miniature circuit breaker
 label_es: Magnetotérmico bipolar
@@ -9,7 +10,6 @@ description: >
 description_es: >
   Magnetotérmico bipolar (2P). Aquí un Moeller C50/2 actúa como
   interruptor general (IGA). No es un seccionador no protector (IGP).
-qet_hint: mcb_2P
 # Face-cell ids: N1/S1 neutral, N2/S2 phase.
 terminal_grid:
   NS: 2

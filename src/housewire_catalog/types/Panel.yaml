@@ -1,6 +1,6 @@
 kind: PlaceType
 type: Panel
-extends: housewire.default.ConnectablePlace
+extends: housewire.default.Box
 abstract: false
 icon: server
 label: Electrical panel
@@ -14,7 +14,6 @@ description_es: >
   en el nodo YAML). Declara bocas en location.ports como ids locales
   (N1, B1-1, …), igual que JunctionBox. Tipo place: sin terminales
   eléctricos.
-terminals: {}
 representations:
   physical:
     kind: dynamic

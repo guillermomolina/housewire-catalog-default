@@ -1,5 +1,6 @@
 kind: ElementType
 type: RCD
+extends: housewire.default.Element
 icon: shield-half
 label: Residual current device
 label_es: Diferencial
@@ -9,7 +10,6 @@ description: >
 description_es: >
   Diferencial (RCD / RCCB). Protege frente a fugas a tierra. No es un
   magnetotérmico.
-qet_hint: rcd_2P
 # Face-cell ids: N1/S1 phase, N2/S2 neutral.
 terminal_grid:
   NS: 2

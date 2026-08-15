@@ -5,12 +5,9 @@ icon: boxes
 label: Spatial container
 label_es: Contenedor espacial
 description: >
-  Abstract base for places that organize other places or electrical elements.
-  Spatial containers do not expose physical ports.
+  Abstract root of the container→box→element lattice. Containers organize other
+  places (containers and boxes), expose no ports, and never contain elements.
 description_es: >
-  Base abstracta para lugares que organizan otros lugares o elementos
-  eléctricos. Los contenedores espaciales no exponen bocas físicas.
-capabilities:
-  children: true
-  ports: false
-terminals: {}
+  Raíz abstracta de la red contenedor→caja→elemento. Los contenedores organizan
+  otros lugares (contenedores y cajas), no exponen bocas y nunca contienen
+  elementos.

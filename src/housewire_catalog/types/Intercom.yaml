@@ -1,12 +1,12 @@
 kind: ElementType
 type: Intercom
+extends: housewire.default.Element
 icon: phone
 label: Intercom
 label_es: Portero
 description: Door entry / video intercom (DC supply).
 description_es: >
   Portero / videoportero (alimentación DC).
-qet_hint: intercom
 terminal_grid:
   N: 2
 terminals:

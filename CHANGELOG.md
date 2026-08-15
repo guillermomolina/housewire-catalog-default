@@ -10,6 +10,21 @@ Catalog metadata lives in `catalog.yaml` (`version:`).
 
 ## [Unreleased]
 
+## [0.33.0] — 2026-08-15
+
+### Changed
+
+- **Type lattice replaces capabilities.** The abstract roots are now
+  ``Container`` → ``Box`` → ``Element`` (``Element`` is ``ElementType`` and
+  extends ``Box``). ``ConnectablePlace`` is renamed ``Box``; concrete boxes
+  (``JunctionBox``, ``DeviceBox``, ``LightPoint``, ``Panel``, ``OpenPort``)
+  extend it, and every element type extends ``Element``. The ``capabilities``
+  block is gone.
+- **Per-type ``contains:`` allowlists.** ``Room`` may contain only
+  ``SpatialCell``; ``SpatialCell`` only ``Wall``/``Ceiling``/``Floor``;
+  ``OpenPort`` is a leaf (``contains: []``).
+- **``qet_hint`` removed** from element types (never used by the program).
+
 ## [0.32.0] — 2026-08-14
 
 ### Added

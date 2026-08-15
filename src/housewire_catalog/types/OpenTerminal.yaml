@@ -1,5 +1,6 @@
 kind: ElementType
 type: OpenTerminal
+extends: housewire.default.Element
 icon: open-terminal
 label: Open terminal
 label_es: Extremo libre
@@ -13,7 +14,6 @@ description_es: >
   todavía sin identificar. Los conductores siempre se conectan a un terminal
   real, incluso cuando faltan detalles de la instalación. El único pin frontal
   es F1 (alias del id de celda F1-1 del terminal_grid F: 1).
-qet_hint: terminal
 terminal_grid:
   F: 1
 terminals:

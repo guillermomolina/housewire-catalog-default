@@ -1,12 +1,12 @@
 kind: ElementType
 type: EarthElectrode
+extends: housewire.default.Element
 icon: arrow-down
 label: Earth electrode
 label_es: Toma de tierra
 description: Earth electrode / ground rod.
 description_es: >
   Toma de tierra / pica de tierra.
-qet_hint: earth_electrode
 terminal_grid:
   S: 1
 terminals:

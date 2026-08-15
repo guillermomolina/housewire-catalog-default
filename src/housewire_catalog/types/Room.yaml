@@ -1,6 +1,7 @@
 kind: PlaceType
 type: Room
 extends: housewire.default.Container
+contains: [SpatialCell]
 abstract: false
 icon: door-open
 label: Room
@@ -11,4 +12,3 @@ description: >
 description_es: >
   Habitación o espacio habitable. Metadatos del place (type/label/… en el
   nodo YAML). Tipo place: sin terminales eléctricos.
-terminals: {}

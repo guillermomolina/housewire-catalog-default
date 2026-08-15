@@ -1,5 +1,6 @@
 kind: ElementType
 type: Switch
+extends: housewire.default.Element
 icon: toggle-right
 label: Switch
 label_es: Interruptor
@@ -11,7 +12,6 @@ description_es: 'Interruptor de mecanismo (luz / carga). Subtipos: unipolar (N1�
   / 3 vías (N1 común + N2/N3), cruzamiento (4 vías).
 
   '
-qet_hint: switch
 terminal_grid:
   NS: 1
 terminals:

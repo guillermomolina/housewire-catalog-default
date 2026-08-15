@@ -1,6 +1,6 @@
 kind: PlaceType
 type: JunctionBox
-extends: housewire.default.ConnectablePlace
+extends: housewire.default.Box
 abstract: false
 icon: box
 label: Junction box
@@ -15,7 +15,6 @@ description_es: 'Caja de derivación. Metadatos del place (type/label/… en el 
   Tipo place: sin terminales eléctricos. El subtype es el grado IP (el tamaño va en notes/label).
 
   '
-terminals: {}
 defaults:
   subtype: IP40
   port_grid:

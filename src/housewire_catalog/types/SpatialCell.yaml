@@ -1,6 +1,7 @@
 kind: PlaceType
 type: SpatialCell
 extends: housewire.default.Container
+contains: [Wall, Ceiling, Floor]
 abstract: false
 icon: box
 label: Room cell
@@ -13,4 +14,3 @@ description_es: >
   Módulo unitario 1×1 de la retícula de una habitación. La clave YAML es
   un id técnico normal (las recetas sugieren C1_1). La posición la dan
   las uniones de cara. Contiene Floor, Ceiling y las paredes activas.
-terminals: {}

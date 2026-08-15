@@ -7,11 +7,12 @@
 External type catalog for [HouseWire](https://github.com/guillermomolina/housewire)
 (`schema: catalog/v1`), installable as the Python package **`housewire-catalog-default`**.
 
-Place types inherit behavior from abstract catalog bases. ``Container``
-provides child containment without physical ports; ``ConnectablePlace``
-adds optional ``port_grid`` / ``ports`` support. Concrete semantic types
-such as ``Room`` and ``JunctionBox`` extend one of these bases and remain the
-types used in site YAML.
+Place types form a three-tier lattice through abstract catalog bases:
+``Container`` → ``Box`` → ``Element``. ``Container`` organizes other places
+without ports; ``Box`` adds ``port_grid`` / ``ports`` and hosts elements only;
+``Element`` is a leaf with ``terminals``. Concrete semantic types such as
+``Room`` and ``JunctionBox`` extend the root of their tier and remain the types
+used in site YAML.
 
 ## Install
 

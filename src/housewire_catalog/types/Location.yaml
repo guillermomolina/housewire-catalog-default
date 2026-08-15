@@ -14,4 +14,3 @@ description_es: >
   DeviceBox, LightPoint, Panel, Floor o House en el documento de sitio
   (campos en la raíz YAML). Se mantiene para anidación ocasional. Tipo
   place: sin terminales eléctricos.
-terminals: {}

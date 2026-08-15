@@ -1,5 +1,6 @@
 kind: ElementType
 type: PowerSupply
+extends: housewire.default.Element
 icon: battery-full
 label: AC/DC power supply
 label_es: Fuente de alimentación AC/DC
@@ -7,7 +8,6 @@ description: Power supply / transformer (e.g. intercom). AC primary, DC secondar
 description_es: >
   Fuente de alimentación / transformador (p. ej. portero). Primario AC,
   secundario DC.
-qet_hint: power_supply_ac_dc
 terminal_grid:
   NS: 2
 terminals:

@@ -1,5 +1,6 @@
 kind: ElementType
 type: MCB
+extends: housewire.default.Element
 icon: zap
 label: Miniature circuit breaker
 label_es: Magnetotérmico
@@ -9,7 +10,6 @@ description: >
 description_es: >
   Magnetotérmico (MCB / PIA). Protege frente a sobrecarga y cortocircuito.
   No es un diferencial (RCD).
-qet_hint: mcb_1P_N
 # Face-cell ids: N1/S1 phase, N2/S2 neutral. label = casing mark.
 terminal_grid:
   NS: 2
