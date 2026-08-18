@@ -5,6 +5,13 @@ All notable changes to **housewire-catalog-wago** are documented in this file.
 Format inspired by [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Versioning follows [Semantic Versioning](https://semver.org/).
 
+## [0.2.0] — 2026-08-18
+
+### Changed
+
+- **Physical representation kinds are PascalCase.**
+  `representations.physical.kind` is now `Fixed` / `Modular` / `Dynamic`.
+
 ## [0.1.0] — 2026-08-17
 
 ### Added

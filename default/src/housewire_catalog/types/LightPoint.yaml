@@ -19,7 +19,7 @@ defaults:
   subtype: CeilingHole
 representations:
   physical:
-    kind: dynamic
+    kind: Dynamic
     main_color:
       default: white
       options:

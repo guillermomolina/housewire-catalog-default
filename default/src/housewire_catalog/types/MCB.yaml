@@ -32,7 +32,7 @@ terminals:
     role: Neutral
 representations:
   physical:
-    kind: fixed
+    kind: Fixed
     svg: symbols/mcb.svg
     size: [52, 68]
     show_label: false

@@ -27,7 +27,7 @@ defaults:
   subtype: Unipolar
 representations:
   physical:
-    kind: fixed
+    kind: Fixed
     svg: symbols/switch-unipolar.svg
     size: [64, 52]
     show_label: false
@@ -67,7 +67,7 @@ subtypes:
         role: Phase
     representations:
       physical:
-        kind: fixed
+        kind: Fixed
         svg: symbols/switch-crossover.svg
         size: [78, 52]
         show_label: false
@@ -102,7 +102,7 @@ subtypes:
         role: Phase
     representations:
       physical:
-        kind: fixed
+        kind: Fixed
         svg: symbols/switch-intermediate.svg
         size: [72, 52]
         show_label: false

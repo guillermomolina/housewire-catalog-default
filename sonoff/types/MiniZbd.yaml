@@ -14,7 +14,7 @@ terminals:
   S3: {label: NC, direction: Out, role: Signal}
 representations:
   physical:
-    kind: fixed
+    kind: Fixed
     svg: symbols/relay-mini-zbd.svg
     size: [84, 88]
     show_label: false

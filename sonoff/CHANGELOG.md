@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0] — 2026-08-18
+
+### Changed
+
+- **Physical representation kinds are PascalCase.**
+  `representations.physical.kind` is now `Fixed` / `Modular` / `Dynamic`.
+
 ## [0.7.0] — 2026-08-17
 
 ### Changed

@@ -29,7 +29,7 @@ terminals:
     role: DCNegative
 representations:
   physical:
-    kind: fixed
+    kind: Fixed
     svg: symbols/power-supply.svg
     size: [70, 54]
     show_label: false

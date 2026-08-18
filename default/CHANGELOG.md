@@ -8,6 +8,15 @@ Versioning follows [Semantic Versioning](https://semver.org/) and is
 
 Catalog metadata lives in `catalog.yaml` (`version:`).
 
+## [0.35.0] — 2026-08-18
+
+### Changed
+
+- **Physical representation kinds are PascalCase.**
+  `representations.physical.kind` is now `Fixed` / `Modular` / `Dynamic` (was
+  lowercase), matching the HouseWire model convention. Legacy lowercase kinds
+  are rejected by the current HouseWire schema.
+
 ## [0.34.0] — 2026-08-17
 
 ### Changed

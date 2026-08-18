@@ -30,7 +30,7 @@ terminals:
 defaults: {}
 representations:
   physical:
-    kind: fixed
+    kind: Fixed
     svg: symbols/luminaire.svg
     size: [72, 52]
     show_label: false

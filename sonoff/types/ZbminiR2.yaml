@@ -14,7 +14,7 @@ terminals:
   S1: {label: S2, direction: In, role: Signal}
 representations:
   physical:
-    kind: fixed
+    kind: Fixed
     svg: symbols/relay-zbmini-r2.svg
     size: [96, 80]
     show_label: false

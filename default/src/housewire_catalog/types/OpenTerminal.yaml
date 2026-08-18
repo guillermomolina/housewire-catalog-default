@@ -22,7 +22,7 @@ terminals:
     direction: InOut
 representations:
   physical:
-    kind: fixed
+    kind: Fixed
     svg: symbols/open-terminal.svg
     size: [30, 30]
     show_label: false

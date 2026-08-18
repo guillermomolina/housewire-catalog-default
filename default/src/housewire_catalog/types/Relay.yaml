@@ -16,7 +16,7 @@ terminals:
   S2: {label: NO, direction: Out, role: Signal}
 representations:
   physical:
-    kind: fixed
+    kind: Fixed
     svg: symbols/relay.svg
     size: [72, 60]
     show_label: false

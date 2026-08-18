@@ -16,7 +16,7 @@ terminals:
     role: PE
 representations:
   physical:
-    kind: fixed
+    kind: Fixed
     svg: symbols/earth-electrode.svg
     size: [48, 60]
     show_label: false

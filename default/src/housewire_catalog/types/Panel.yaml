@@ -16,7 +16,7 @@ description_es: >
   eléctricos.
 representations:
   physical:
-    kind: dynamic
+    kind: Dynamic
     main_color:
       default: white
       options:

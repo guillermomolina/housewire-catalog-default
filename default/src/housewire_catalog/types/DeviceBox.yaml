@@ -23,7 +23,7 @@ defaults:
     B: 1
 representations:
   physical:
-    kind: dynamic
+    kind: Dynamic
     main_color:
       default: black
       options:

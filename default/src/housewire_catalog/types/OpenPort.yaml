@@ -24,7 +24,7 @@ defaults:
     F: 1
 representations:
   physical:
-    kind: fixed
+    kind: Fixed
     svg: symbols/open-port.svg
     size: [36, 36]
     show_label: false

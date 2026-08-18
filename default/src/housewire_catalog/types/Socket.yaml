@@ -31,7 +31,7 @@ subtypes:
     label_es: Schuko (2P+T)
 representations:
   physical:
-    kind: fixed
+    kind: Fixed
     svg: symbols/socket-schuko.svg
     size: [64, 52]
     show_label: false

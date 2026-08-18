@@ -22,7 +22,7 @@ terminals:
   N3: {label: "3", direction: InOut}
 representations:
   physical:
-    kind: modular
+    kind: Modular
     module_svg: symbols/terminal-strip-pole.svg
     module_size: [20, 36]
     show_label: false
