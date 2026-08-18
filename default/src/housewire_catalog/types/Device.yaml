@@ -1,0 +1,13 @@
+kind: DeviceType
+type: Device
+extends: housewire.default.Enclosure
+abstract: true
+icon: circle-dot
+label: Device
+label_es: Dispositivo
+description: >
+  Abstract root of electrical devices. A device is a leaf: it exposes
+  terminals, never ports, and never contains anything.
+description_es: >
+  Raíz abstracta de los dispositivos eléctricos. Un dispositivo es una hoja:
+  expone terminales, nunca bocas, y nunca contiene nada.

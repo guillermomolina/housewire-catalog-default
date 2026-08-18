@@ -1,0 +1,38 @@
+kind: ConductorType
+type: Conductor
+icon: minus
+label: Conductor
+label_es: Conductor
+description: 'Single wire between two terminals (from/to). Lives under cables: with type Conductor;
+  not in children.
+
+  '
+description_es: 'Hilo único entre dos terminales (from/to). Vive bajo cables: con tipo Conductor;
+  no en children.
+
+  '
+defaults:
+  subtype: Power
+  section: 1.5 mm2
+  color: BU
+subtypes:
+  Power:
+    label: Power (AC)
+    label_es: Potencia (CA)
+    defaults:
+      color: BU
+  Earth:
+    label: Protective earth
+    label_es: Tierra de protección
+    defaults:
+      color: GNYE
+  DC:
+    label: DC
+    label_es: CC
+    defaults:
+      color: RD
+  Signal:
+    label: Signal / data
+    label_es: Señal / datos
+    defaults:
+      color: WH

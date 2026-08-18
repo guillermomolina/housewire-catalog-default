@@ -1,0 +1,43 @@
+kind: PlaceType
+type: JunctionBox
+extends: housewire.default.Enclosure
+abstract: false
+icon: box
+label: Junction box
+label_es: Caja de derivación
+description: 'Junction / derivation box. Place metadata (type/label/… on the YAML node). Declare
+  mouths in location.ports as a list of local ids (N1, B1-1, …) and optionally location.port_grid.
+  Place type: no electrical terminals. Subtype is IP rating (size belongs in notes/label).
+
+  '
+description_es: 'Caja de derivación. Metadatos del place (type/label/… en el nodo YAML). Declara
+  bocas en location.ports como lista de ids locales (N1, B1-1, …) y opcionalmente location.port_grid.
+  Tipo place: sin terminales eléctricos. El subtype es el grado IP (el tamaño va en notes/label).
+
+  '
+defaults:
+  subtype: IP40
+  port_grid:
+    NS: 2
+    WE: 2
+    B: 2x2
+representations:
+  physical:
+    kind: dynamic
+    main_color:
+      default: black
+      options:
+        white: "#f8fafc"
+        gray: "#6b7280"
+        black: "#27272a"
+subtypes:
+  IP40:
+    label: IP40 (indoor)
+    label_es: IP40 (interior)
+    defaults:
+      install: Flush
+  IP65:
+    label: IP65 (exposed / outdoor)
+    label_es: IP65 (visto / exterior)
+    defaults:
+      install: Surface

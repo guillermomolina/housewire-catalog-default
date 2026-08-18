@@ -1,0 +1,26 @@
+kind: PlaceType
+type: Panel
+extends: housewire.default.Enclosure
+abstract: false
+icon: server
+label: Electrical panel
+label_es: Cuadro eléctrico
+description: >
+  Electrical panel / consumer unit. Place metadata (type/label/… on the YAML
+  node). Declare mouths in location.ports as local ids (N1, B1-1, …), same
+  as JunctionBox. Place type: no electrical terminals.
+description_es: >
+  Cuadro eléctrico / caja de protección. Metadatos del place (type/label/…
+  en el nodo YAML). Declara bocas en location.ports como ids locales
+  (N1, B1-1, …), igual que JunctionBox. Tipo place: sin terminales
+  eléctricos.
+representations:
+  physical:
+    kind: dynamic
+    main_color:
+      default: white
+      options:
+        white: "#f8fafc"
+        light_gray: "#d1d5db"
+        gray: "#6b7280"
+        black: "#27272a"

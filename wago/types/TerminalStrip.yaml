@@ -1,0 +1,38 @@
+kind: DeviceType
+type: TerminalStrip
+extends: housewire.default.Device
+icon: grip-horizontal
+label: Wago terminal strip
+label_es: Regleta Wago
+manufacturer: Wago
+model: 281-603
+description: >
+  Wago 3-pole through terminal strip (series 281). Face-cell ids only on N
+  (N1..Nn); terminal_grid NS draws both sides of the same potential. Widen on
+  the instance e.g. terminal_grid: { NS: 6 } and terminals N1..N6.
+description_es: >
+  Regleta pasante Wago de 3 polos (serie 281). Ids de cara solo en N (N1..Nn);
+  terminal_grid NS dibuja ambos lados del mismo potencial. Ampliar en la
+  instancia p. ej. terminal_grid: { NS: 6 } y terminales N1..N6.
+terminal_grid:
+  NS: 3
+terminals:
+  N1: {label: "1", direction: InOut}
+  N2: {label: "2", direction: InOut}
+  N3: {label: "3", direction: InOut}
+representations:
+  physical:
+    kind: modular
+    module_svg: symbols/terminal-strip-pole.svg
+    module_size: [20, 36]
+    show_label: false
+    main_color:
+      default: orange
+      options:
+        orange: "#f97316"
+        gray: "#9ca3af"
+        blue: "#3b82f6"
+    module:
+      terminals:
+        N: {position: [0.5, 0.0]}
+        S: {position: [0.5, 1.0]}

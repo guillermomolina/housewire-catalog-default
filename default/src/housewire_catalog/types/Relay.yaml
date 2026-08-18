@@ -1,0 +1,27 @@
+kind: DeviceType
+type: Relay
+extends: housewire.default.Device
+icon: workflow
+label: Relay
+label_es: Relé
+description: Generic electrically operated switching device.
+description_es: Dispositivo genérico de conmutación accionado eléctricamente.
+terminal_grid:
+  N: 2
+  S: 2
+terminals:
+  N1: {label: A1, direction: In, role: Signal}
+  N2: {label: A2, direction: In, role: Signal}
+  S1: {label: COM, direction: InOut, role: Signal}
+  S2: {label: NO, direction: Out, role: Signal}
+representations:
+  physical:
+    kind: fixed
+    svg: symbols/relay.svg
+    size: [72, 60]
+    show_label: false
+    terminals:
+      N1: {position: [0.305556, 0.0]}
+      N2: {position: [0.694444, 0.0]}
+      S1: {position: [0.305556, 1.0]}
+      S2: {position: [0.694444, 1.0]}

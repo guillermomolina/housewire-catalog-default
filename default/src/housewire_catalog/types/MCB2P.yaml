@@ -1,0 +1,43 @@
+kind: DeviceType
+type: MCB2P
+extends: housewire.default.Device
+icon: zap
+label: Double-pole miniature circuit breaker
+label_es: Magnetotérmico bipolar
+description: >
+  Double-pole miniature circuit breaker (2P). Here a Moeller C50/2 acts as the
+  main breaker (IGA). Not a non-protective isolator (IGP).
+description_es: >
+  Magnetotérmico bipolar (2P). Aquí un Moeller C50/2 actúa como
+  interruptor general (IGA). No es un seccionador no protector (IGP).
+# Face-cell ids: N1/S1 neutral, N2/S2 phase.
+terminal_grid:
+  NS: 2
+terminals:
+  N1:
+    label: "1"
+    direction: In
+    role: Neutral
+  S1:
+    label: "2"
+    direction: Out
+    role: Neutral
+  N2:
+    label: "3"
+    direction: In
+    role: Phase
+  S2:
+    label: "4"
+    direction: Out
+    role: Phase
+representations:
+  physical:
+    kind: fixed
+    svg: symbols/mcb.svg
+    size: [52, 68]
+    show_label: false
+    terminals:
+      N1: {position: [0.25, 0.0]}
+      N2: {position: [0.75, 0.0]}
+      S1: {position: [0.25, 1.0]}
+      S2: {position: [0.75, 1.0]}

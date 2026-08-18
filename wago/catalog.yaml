@@ -1,0 +1,9 @@
+schema: catalog
+id: housewire.wago
+version: 0.1.0
+label: Wago connection catalog
+label_es: Catálogo de conexiones Wago
+description: Wago terminal strips and connection products for HouseWire sites.
+description_es: Regletas y productos de conexión Wago para sitios HouseWire.
+requires:
+  housewire.default: ">=0.34.0"

@@ -1,0 +1,15 @@
+kind: PlaceType
+type: Enclosure
+extends: housewire.default.Container
+abstract: true
+icon: box
+label: Enclosure
+label_es: Caja
+description: >
+  Abstract base for physical enclosures that expose ports. An enclosure may
+  contain devices only; it never nests another enclosure or place. Conduits
+  attach to its ports.
+description_es: >
+  Base abstracta de las cajas físicas que exponen bocas. Una caja solo puede
+  contener dispositivos; nunca anida otra caja ni otro lugar. Los conductos se
+  anclan en sus bocas.

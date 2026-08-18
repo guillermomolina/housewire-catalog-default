@@ -1,0 +1,7 @@
+schema: catalog
+id: housewire.sonoff
+version: 0.7.0
+label: Sonoff device catalog
+label_es: Catálogo de dispositivos Sonoff
+requires:
+  housewire.default: ">=0.34.0"

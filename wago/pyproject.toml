@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "housewire-catalog-wago"
+version = "0.1.0"
+description = "Wago connection type catalog for HouseWire"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "SSPL-1.0" }
+authors = [{ name = "Guillermo Adrián Molina" }]
+keywords = ["housewire", "wago", "terminal", "catalog"]
+dependencies = [
+    "PyYAML>=6.0",
+    "housewire-catalog-default>=0.34.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/guillermomolina/housewire"
+Repository = "https://github.com/guillermomolina/housewire"
+Issues = "https://github.com/guillermomolina/housewire/issues"
+
+[project.entry-points."housewire.catalog"]
+"housewire.wago" = "housewire_catalog_wago:catalog_root"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/housewire_catalog_wago"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"catalog.yaml" = "housewire_catalog_wago/catalog.yaml"
+"types" = "housewire_catalog_wago/types"

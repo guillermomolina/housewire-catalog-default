@@ -1,0 +1,14 @@
+kind: PlaceType
+type: Container
+abstract: true
+icon: boxes
+label: Spatial container
+label_es: Contenedor espacial
+description: >
+  Abstract root of the container→enclosure→device lattice. Containers organize
+  other places (containers and enclosures), expose no ports, and never contain
+  devices.
+description_es: >
+  Raíz abstracta de la red contenedor→caja→dispositivo. Los contenedores
+  organizan otros lugares (contenedores y cajas), no exponen bocas y nunca
+  contienen dispositivos.

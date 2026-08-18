@@ -1,0 +1,26 @@
+kind: DeviceType
+type: MiniZbd
+extends: housewire.default.Relay
+label: Sonoff MINI Zigbee Dry (MINI-ZBD)
+label_es: Sonoff MINI Zigbee Dry (MINI-ZBD)
+description: Powered smart relay with NO, COM, and NC dry contacts.
+description_es: Relé inteligente alimentado con contactos secos NO, COM y NC.
+terminal_grid: {N: 2, S: 3}
+terminals:
+  N1: {label: L, direction: In, role: Phase}
+  N2: {label: N, direction: In, role: Neutral}
+  S1: {label: "NO", direction: Out, role: Signal}
+  S2: {label: COM, direction: InOut, role: Signal}
+  S3: {label: NC, direction: Out, role: Signal}
+representations:
+  physical:
+    kind: fixed
+    svg: symbols/relay-mini-zbd.svg
+    size: [84, 88]
+    show_label: false
+    terminals:
+      N1: {position: [0.27381, 1.0]}
+      N2: {position: [0.119048, 1.0]}
+      S1: {position: [0.321429, 0.0]}
+      S2: {position: [0.5, 0.0]}
+      S3: {position: [0.678571, 0.0]}

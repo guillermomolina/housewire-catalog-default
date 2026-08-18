@@ -1,0 +1,40 @@
+kind: ConduitType
+type: Conduit
+icon: grip-vertical
+label: Conduit
+label_es: Conducto
+description: 'Tube or hose between locations (physical layer). Joins ports with from/to
+  (LocationRef.PortId); contains lists cables/conductors that travel inside. Lives under
+  cables: with type Conduit, not in children.
+
+  '
+description_es: 'Tubo o conducto entre lugares (capa física). Une ports con from/to (LocationRef.PortId);
+  contains lista cables/conductores que van dentro. Vive bajo cables: con tipo Conduit, no
+  en children.
+
+  '
+defaults:
+  subtype: Tube
+  color: BK
+subtypes:
+  Tube:
+    label: Tube (generic)
+    label_es: Tubo (genérico)
+  Hose:
+    label: Multi-cable hose / sheath
+    label_es: Manguera / cubierta multipolar
+  Free:
+    label: Free wires / no tube
+    label_es: Hilos libres / sin tubo
+  M16:
+    label: Tube M16
+    label_es: Tubo M16
+  M20:
+    label: Tube M20
+    label_es: Tubo M20
+  M25:
+    label: Tube M25
+    label_es: Tubo M25
+  M32:
+    label: Tube M32
+    label_es: Tubo M32

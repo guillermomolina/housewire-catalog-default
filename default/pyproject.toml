@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "housewire-catalog-default"
+version = "0.34.0"
+description = "Default type catalog for HouseWire sites"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "SSPL-1.0" }
+authors = [{ name = "Guillermo Adrián Molina" }]
+keywords = ["housewire", "electrical", "catalog"]
+dependencies = [
+    "PyYAML>=6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/guillermomolina/housewire-catalog-default"
+Repository = "https://github.com/guillermomolina/housewire-catalog-default"
+Issues = "https://github.com/guillermomolina/housewire/issues"
+Changelog = "https://github.com/guillermomolina/housewire-catalog-default/blob/main/CHANGELOG.md"
+
+[project.entry-points."housewire.catalog"]
+"housewire.default" = "housewire_catalog:catalog_root"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+housewire_catalog = [
+    "catalog.yaml",
+    "logo.svg",
+    "types/*.yaml",
+    "types/*.yml",
+    "types/symbols/*.svg",
+]

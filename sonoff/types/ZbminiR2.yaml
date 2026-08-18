@@ -1,0 +1,26 @@
+kind: DeviceType
+type: ZbminiR2
+extends: housewire.default.Relay
+label: Sonoff ZBMiniR2
+label_es: Sonoff ZBMiniR2
+description: Powered smart relay with an external switch input.
+description_es: Relé inteligente alimentado y con entrada para interruptor externo.
+terminal_grid: {N: 4, S: 1}
+terminals:
+  N1: {label: N, direction: In, role: Neutral}
+  N2: {label: L in, direction: In, role: Phase}
+  N3: {label: L out, direction: Out, role: Phase}
+  N4: {label: S1, direction: In, role: Signal}
+  S1: {label: S2, direction: In, role: Signal}
+representations:
+  physical:
+    kind: fixed
+    svg: symbols/relay-zbmini-r2.svg
+    size: [96, 80]
+    show_label: false
+    terminals:
+      N1: {position: [0.3125, 1.0]}
+      N2: {position: [0.583333, 1.0]}
+      N3: {position: [0.447917, 1.0]}
+      N4: {position: [0.71875, 1.0]}
+      S1: {position: [0.854167, 1.0]}

@@ -1,0 +1,40 @@
+kind: DeviceType
+type: Luminaire
+extends: housewire.default.Device
+icon: lightbulb
+label: Luminaire
+label_es: Luminaria
+description: >
+  Luminaire or lampholder. Typical terminals N1/N2/N3 when switched phase,
+  permanent phase, and neutral arrive (or only L+N if the instance shrinks
+  terminals).
+description_es: >
+  Luminaria o portalámparas. Terminales típicos N1/N2/N3 cuando llegan
+  fase conmutada, fase permanente y neutro (o solo L+N si la instancia
+  reduce terminales).
+terminal_grid:
+  N: 3
+terminals:
+  N1:
+    label: "1"
+    direction: In
+    role: Phase
+  N2:
+    label: "2"
+    direction: In
+    role: Phase
+  N3:
+    label: "3"
+    direction: In
+    role: Neutral
+defaults: {}
+representations:
+  physical:
+    kind: fixed
+    svg: symbols/luminaire.svg
+    size: [72, 52]
+    show_label: false
+    terminals:
+      N1: {position: [0.25, 0.0]}
+      N2: {position: [0.5, 0.0]}
+      N3: {position: [0.75, 0.0]}
