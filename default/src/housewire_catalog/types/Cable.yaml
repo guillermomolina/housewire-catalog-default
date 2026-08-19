@@ -2,7 +2,7 @@ kind: CableType
 type: Cable
 icon: minus
 label: Cable sheath
-label_es: Manguera
+label_es: Cable
 description: 'Sheath or bundle that groups conductors (contains). Does not connect terminals;
   lives under cables:, not in children.
 

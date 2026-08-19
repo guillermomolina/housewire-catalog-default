@@ -8,6 +8,14 @@ Versioning follows [Semantic Versioning](https://semver.org/) and is
 
 Catalog metadata lives in `catalog.yaml` (`version:`).
 
+## [0.35.1] — 2026-08-19
+
+### Changed
+
+- Spanish label for the Cable sheath type is now **Cable** (was «Manguera»),
+  and the Conduit ``Hose`` subtype is **Cable / cubierta multipolar** (was
+  «Manguera / cubierta multipolar»). English labels unchanged.
+
 ## [0.35.0] — 2026-08-18
 
 ### Changed

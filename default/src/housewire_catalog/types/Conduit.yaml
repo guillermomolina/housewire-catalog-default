@@ -22,7 +22,7 @@ subtypes:
     label_es: Tubo (genérico)
   Hose:
     label: Multi-cable hose / sheath
-    label_es: Manguera / cubierta multipolar
+    label_es: Cable / cubierta multipolar
   Free:
     label: Free wires / no tube
     label_es: Hilos libres / sin tubo
