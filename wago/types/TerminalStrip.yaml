@@ -2,24 +2,21 @@ kind: DeviceType
 type: TerminalStrip
 extends: housewire.default.Device
 icon: grip-horizontal
-label: Wago terminal strip
-label_es: Regleta Wago
+label: Wago 281 terminal strip
+label_es: Regleta Wago 281
 manufacturer: Wago
-model: 281-603
 description: >
-  Wago 3-pole through terminal strip (series 281). Face-cell ids only on N
-  (N1..Nn); terminal_grid NS draws both sides of the same potential. Widen on
-  the instance e.g. terminal_grid: { NS: 6 } and terminals N1..N6.
+  Wago series 281 through terminal strip (solder terminal block). Pick the
+  model (pole count) as subtype. Face-cell ids only on N (N1..Nn);
+  terminal_grid NS draws both sides of the same potential. Widen on the
+  instance e.g. terminal_grid: { NS: 6 } and terminals N1..N6.
 description_es: >
-  Regleta pasante Wago de 3 polos (serie 281). Ids de cara solo en N (N1..Nn);
-  terminal_grid NS dibuja ambos lados del mismo potencial. Ampliar en la
-  instancia p. ej. terminal_grid: { NS: 6 } y terminales N1..N6.
-terminal_grid:
-  NS: 3
-terminals:
-  N1: {label: "1", direction: InOut}
-  N2: {label: "2", direction: InOut}
-  N3: {label: "3", direction: InOut}
+  Regleta pasante Wago serie 281 (bloque de soldadura). El modelo (número de
+  polos) se elige como subtype. Ids de cara solo en N (N1..Nn); terminal_grid
+  NS dibuja ambos lados del mismo potencial. Ampliar en la instancia p. ej.
+  terminal_grid: { NS: 6 } y terminales N1..N6.
+defaults:
+  subtype: "281-603"
 representations:
   physical:
     kind: Modular
@@ -36,3 +33,73 @@ representations:
       terminals:
         N: {position: [0.5, 0.0]}
         S: {position: [0.5, 1.0]}
+subtypes:
+  "281-601":
+    label: 281-601 (1-way)
+    label_es: 281-601 (1 vía)
+    description: Single-pole through terminal strip, series 281.
+    description_es: Regleta pasante de 1 polo, serie 281.
+    terminal_grid:
+      NS: 1
+    terminals:
+      N1: {label: "1", direction: InOut}
+  "281-602":
+    label: 281-602 (2-way)
+    label_es: 281-602 (2 vías)
+    description: Two-pole through terminal strip, series 281.
+    description_es: Regleta pasante de 2 polos, serie 281.
+    terminal_grid:
+      NS: 2
+    terminals:
+      N1: {label: "1", direction: InOut}
+      N2: {label: "2", direction: InOut}
+  "281-603":
+    label: 281-603 (3-way)
+    label_es: 281-603 (3 vías)
+    description: Three-pole through terminal strip, series 281.
+    description_es: Regleta pasante de 3 polos, serie 281.
+    terminal_grid:
+      NS: 3
+    terminals:
+      N1: {label: "1", direction: InOut}
+      N2: {label: "2", direction: InOut}
+      N3: {label: "3", direction: InOut}
+  "281-604":
+    label: 281-604 (4-way)
+    label_es: 281-604 (4 vías)
+    description: Four-pole through terminal strip, series 281.
+    description_es: Regleta pasante de 4 polos, serie 281.
+    terminal_grid:
+      NS: 4
+    terminals:
+      N1: {label: "1", direction: InOut}
+      N2: {label: "2", direction: InOut}
+      N3: {label: "3", direction: InOut}
+      N4: {label: "4", direction: InOut}
+  "281-605":
+    label: 281-605 (5-way)
+    label_es: 281-605 (5 vías)
+    description: Five-pole through terminal strip, series 281.
+    description_es: Regleta pasante de 5 polos, serie 281.
+    terminal_grid:
+      NS: 5
+    terminals:
+      N1: {label: "1", direction: InOut}
+      N2: {label: "2", direction: InOut}
+      N3: {label: "3", direction: InOut}
+      N4: {label: "4", direction: InOut}
+      N5: {label: "5", direction: InOut}
+  "281-606":
+    label: 281-606 (6-way)
+    label_es: 281-606 (6 vías)
+    description: Six-pole through terminal strip, series 281.
+    description_es: Regleta pasante de 6 polos, serie 281.
+    terminal_grid:
+      NS: 6
+    terminals:
+      N1: {label: "1", direction: InOut}
+      N2: {label: "2", direction: InOut}
+      N3: {label: "3", direction: InOut}
+      N4: {label: "4", direction: InOut}
+      N5: {label: "5", direction: InOut}
+      N6: {label: "6", direction: InOut}

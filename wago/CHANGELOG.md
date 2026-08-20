@@ -5,6 +5,15 @@ All notable changes to **housewire-catalog-wago** are documented in this file.
 Format inspired by [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 Versioning follows [Semantic Versioning](https://semver.org/).
 
+## [0.3.1] — 2026-08-20
+
+### Changed
+
+- **Series 281 terminal strip as a series type.** `housewire.wago.TerminalStrip`
+  becomes a series type with one subtype per model: 281-601 through 281-606
+  (1- to 6-pole). The default subtype 281-603 keeps the previous 3-pole
+  behavior.
+
 ## [0.3.0] — 2026-08-20
 
 ### Added

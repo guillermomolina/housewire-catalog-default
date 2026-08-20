@@ -2,7 +2,8 @@
 
 Wago connection products (terminal strips, splices) as HouseWire catalog types.
 
-- Series 281 through terminal strips (`housewire.wago.TerminalStrip`).
+- Series 281 through terminal strips (`housewire.wago.TerminalStrip`):
+  models 281-601 through 281-606 (1- to 6-pole).
 - Series 221 lever-nut splicing connectors (`housewire.wago.SpliceConnector`):
   models 221-412 (2-way), 221-413 (3-way), and 221-415 (5-way), 4 mm².
 
