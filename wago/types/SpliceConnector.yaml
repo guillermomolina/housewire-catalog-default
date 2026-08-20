@@ -1,0 +1,90 @@
+kind: DeviceType
+type: SpliceConnector
+extends: housewire.default.Device
+icon: link
+label: Wago 221 splice connector
+label_es: Empalme Wago 221
+manufacturer: Wago
+description: >
+  Wago 221 compact splicing connector (lever-nut). Single pole: each lever
+  clamps one conductor and every slot shares the same potential. Pick the
+  model (number of ways) as subtype. Terminals land on the N face (N1..Nn);
+  widen on the instance e.g. terminal_grid: { N: 5 } and terminals N1..N5.
+description_es: >
+  Empalme compacto Wago 221 (lever-nut). Un solo polo: cada palanca sujeta un
+  conductor y todas las ranuras comparten el mismo potencial. El modelo
+  (número de vías) se elige como subtype. Los bornes van en la cara N
+  (N1..Nn); ampliar en la instancia p. ej. terminal_grid: { N: 5 } y bornes
+  N1..N5.
+defaults:
+  subtype: "221-413"
+representations:
+  physical:
+    kind: Fixed
+    show_label: false
+    main_color:
+      default: orange
+      options:
+        orange: "#f97316"
+        gray: "#9ca3af"
+        black: "#27272a"
+subtypes:
+  "221-412":
+    label: 221-412 (2-way)
+    label_es: 221-412 (2 vías)
+    description: Two-conductor compact splice connector, up to 4 mm².
+    description_es: Empalme compacto de 2 conductores, hasta 4 mm².
+    terminal_grid:
+      N: 2
+    terminals:
+      N1: {label: "1", direction: InOut}
+      N2: {label: "2", direction: InOut}
+    representations:
+      physical:
+        svg: symbols/splice-221-412.svg
+        size: [36, 22]
+        terminals:
+          N1: {position: [0.25, 0.0]}
+          N2: {position: [0.75, 0.0]}
+  "221-413":
+    label: 221-413 (3-way)
+    label_es: 221-413 (3 vías)
+    description: Three-conductor compact splice connector, up to 4 mm².
+    description_es: Empalme compacto de 3 conductores, hasta 4 mm².
+    terminal_grid:
+      N: 3
+    terminals:
+      N1: {label: "1", direction: InOut}
+      N2: {label: "2", direction: InOut}
+      N3: {label: "3", direction: InOut}
+    representations:
+      physical:
+        svg: symbols/splice-221-413.svg
+        size: [50, 22]
+        terminals:
+          N1: {position: [0.1666667, 0.0]}
+          N2: {position: [0.5, 0.0]}
+          N3: {position: [0.8333333, 0.0]}
+  "221-415":
+    label: 221-415 (5-way)
+    label_es: 221-415 (5 vías)
+    description: Five-conductor compact splice connector, up to 4 mm².
+    description_es: Empalme compacto de 5 conductores, hasta 4 mm².
+    terminal_grid:
+      N: 5
+    terminals:
+      N1: {label: "1", direction: InOut}
+      N2: {label: "2", direction: InOut}
+      N3: {label: "3", direction: InOut}
+      N4: {label: "4", direction: InOut}
+      N5: {label: "5", direction: InOut}
+    representations:
+      physical:
+        svg: symbols/splice-221-415.svg
+        size: [78, 22]
+        terminals:
+          N1: {position: [0.1, 0.0]}
+          N2: {position: [0.3, 0.0]}
+          N3: {position: [0.5, 0.0]}
+          N4: {position: [0.7, 0.0]}
+          N5: {position: [0.9, 0.0]}

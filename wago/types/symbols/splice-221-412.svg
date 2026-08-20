@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 22">
+  <rect x="1.5" y="3" width="33" height="17" rx="2" fill="{{main_color}}" stroke="#52525b" stroke-width="1.5"/>
+  <g>
+    <rect x="4" y="1" width="10" height="5.5" rx="1.4" fill="{{main_color}}" fill-opacity="0.82" stroke="#52525b" stroke-width="1"/>
+    <rect x="22" y="1" width="10" height="5.5" rx="1.4" fill="{{main_color}}" fill-opacity="0.82" stroke="#52525b" stroke-width="1"/>
+    <path d="M9 6.5v4.5M27 6.5v4.5" stroke="#374151" stroke-width="1"/>
+    <circle cx="9" cy="14" r="3" fill="#f8fafc" stroke="#4b5563" stroke-width="1.2"/>
+    <circle cx="27" cy="14" r="3" fill="#f8fafc" stroke="#4b5563" stroke-width="1.2"/>
+  </g>
+  <circle cx="3.2" cy="15" r="1.5" fill="#f8fafc" stroke="#4b5563" stroke-width="0.9"/>
+</svg>

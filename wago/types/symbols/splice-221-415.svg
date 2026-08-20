@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78 22">
+  <rect x="1.5" y="3" width="75" height="17" rx="2" fill="{{main_color}}" stroke="#52525b" stroke-width="1.5"/>
+  <g>
+    <rect x="3.3" y="1" width="9" height="5.5" rx="1.4" fill="{{main_color}}" fill-opacity="0.82" stroke="#52525b" stroke-width="1"/>
+    <rect x="18.9" y="1" width="9" height="5.5" rx="1.4" fill="{{main_color}}" fill-opacity="0.82" stroke="#52525b" stroke-width="1"/>
+    <rect x="34.5" y="1" width="9" height="5.5" rx="1.4" fill="{{main_color}}" fill-opacity="0.82" stroke="#52525b" stroke-width="1"/>
+    <rect x="50.1" y="1" width="9" height="5.5" rx="1.4" fill="{{main_color}}" fill-opacity="0.82" stroke="#52525b" stroke-width="1"/>
+    <rect x="65.7" y="1" width="9" height="5.5" rx="1.4" fill="{{main_color}}" fill-opacity="0.82" stroke="#52525b" stroke-width="1"/>
+    <path d="M7.8 6.5v4.5M23.4 6.5v4.5M39 6.5v4.5M54.6 6.5v4.5M70.2 6.5v4.5" stroke="#374151" stroke-width="1"/>
+    <circle cx="7.8" cy="14" r="3" fill="#f8fafc" stroke="#4b5563" stroke-width="1.2"/>
+    <circle cx="23.4" cy="14" r="3" fill="#f8fafc" stroke="#4b5563" stroke-width="1.2"/>
+    <circle cx="39" cy="14" r="3" fill="#f8fafc" stroke="#4b5563" stroke-width="1.2"/>
+    <circle cx="54.6" cy="14" r="3" fill="#f8fafc" stroke="#4b5563" stroke-width="1.2"/>
+    <circle cx="70.2" cy="14" r="3" fill="#f8fafc" stroke="#4b5563" stroke-width="1.2"/>
+  </g>
+  <circle cx="3.2" cy="15" r="1.5" fill="#f8fafc" stroke="#4b5563" stroke-width="0.9"/>
+</svg>
